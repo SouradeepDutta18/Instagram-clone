@@ -1,0 +1,63 @@
+.image .img{
+    width: 100%;
+    object-fit: cover;
+}
+.post{
+    background: white;
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+.user{
+    margin-left: 10px;
+}
+.post__title p{
+    font-family: sans-serif;
+    font-size: 13px;
+    
+    font-weight: 600;
+   
+}
+.post__title{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+
+}
+.meta{
+    padding: 5px;
+}
+.meta_top{
+    display: flex;
+    margin-bottom: 7px;
+
+}
+.meta_top .MuiSvgIcon-root{
+    margin-right: 8px;
+}
+.send{
+   
+}
+.image img{
+    width: 100%;
+}
+.user_caption{
+    font-weight: bold;
+}
+.like{
+    margin-bottom: 10px;
+}
+.meta_description{
+    font-family: sans-serif;
+    font-size: 12px;
+    
+    
+}
+.meta_description .user_caption{
+    font-weight: 600;
+}
+.post__title .MuiAvatar-root{
+     height: 24px!important;
+     width: 24px!important;
+}
+

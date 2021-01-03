@@ -1,0 +1,19 @@
+.Suggestion{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.Suggestion .MuiAvatar-root{
+    height: 26px!important;
+    width: 26px!important;
+}
+.metatext p{
+    font-size: small;
+    color: #606060;
+    }
+.metatext h5{
+    margin-bottom: 3px;
+}
+.metatext{
+    margin-left: 15px;
+}

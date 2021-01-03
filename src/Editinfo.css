@@ -1,0 +1,83 @@
+.update__form{
+    flex: 0.6;
+    border: 1px solid lightgrey;
+    background: white;
+    border-left: none;
+    margin-top: 24px;
+    padding: 15px;
+}
+.update__form form{
+    margin-top: 20px ;
+}
+.item{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.sidebar_edit{
+    flex: 0.20;
+    background: white;
+    border: 1px solid lightgray;
+    margin-top: 24px;
+    padding: 10px;
+}
+
+
+
+label{
+    flex: 0.3;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+}
+.update__form form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    flex: 1;
+}
+.form__wrapper{
+    display: flex;
+    grid-gap: 30px;
+}
+
+form input[type="text"]{
+    flex: 0.45;
+    height: 22px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.update__form .MuiAvatar-root{
+    height: 30px!important;
+    width: 30px!important;
+}
+
+.super__wrap{
+    display: flex;
+    grid-gap: 35px;
+}
+
+.edit__dp{
+    flex: 0.3;
+}
+
+.edit__dp .MuiAvatar-root{
+    float: right;
+}
+#chngdp{
+    color:rgba(4, 103, 233, 0.945);
+    cursor: pointer;
+}
+.hazy{
+    opacity: 0.3;
+}
+
+.edit__meta{
+    flex: 0.45;
+}

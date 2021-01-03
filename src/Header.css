@@ -1,0 +1,83 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #fafafa;
+    padding: 8px;
+    background-color: white;
+    z-index: 1000;
+    border: 1px solid lightgray;
+   
+}
+.Header__right{
+    display: flex;
+    align-items: center;
+    margin-right: 12%;
+} 
+.Header__left{
+    margin-left: 12%;
+}
+.Header__middle{
+    flex: 0.23;
+}
+.icon{
+    margin-left: 14px;
+}
+.logo{
+    height: 32px;
+}
+.icon .MuiSvgIcon-root{
+    height: 26px!important;
+    width: 26px!important;
+}
+.icon .MuiAvatar-root {
+    height: 26px!important;
+    width: 26px!important;
+}
+.Header input[type="text"]{
+     width: 100%;
+     background-color: #fafafa;
+     border: 1px solid lightgrey;
+     height: 18px;
+}
+
+
+.Header input[type="text"]::placeholder{
+    text-align: center;
+    color: lightgrey;
+
+}
+.dropdown{
+    position: absolute;
+   
+    left: 50%;
+    padding: 20px;
+    border:1px solid lightgray;
+    
+    background-color: white;
+ 
+}
+.dropdown div{
+    margin-bottom: 12px;
+}
+.dropdown li{
+    list-style: none;
+    border-top: 1px solid lightgray;
+}
+.dropdown li:hover{
+    background: black;
+    color: white;
+}
+
+.user_icon_class{
+    position: relative;
+    cursor: pointer;
+
+}
+.dropdown a{
+    text-decoration: none;
+    color: black;
+}

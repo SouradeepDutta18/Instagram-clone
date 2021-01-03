@@ -1,0 +1,22 @@
+.mainfeed{
+    flex:0.42;
+    
+}
+.caption_text{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 1px solid lightgrey;
+}
+.caption_text ::placeholder{
+    text-align: center;
+    color: lightgrey;
+    margin-left: 20px;
+
+}
+.fileupload{
+    display: block;
+}
+.btn {
+    margin: 15px 0;
+}
